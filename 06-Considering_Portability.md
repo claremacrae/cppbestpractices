@@ -1,5 +1,15 @@
 # Considering Portability
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [Know Your Types](#know-your-types)
+- [Use The Standard Library](#use-the-standard-library)
+- [Other Concerns](#other-concerns)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Know Your Types
 
 Most portability issues that generate warnings are because we are not careful about our types. Standard library and arrays are indexed with `size_t`. Standard container sizes are reported in `size_t`. If you get the handling of `size_t` wrong, you can create subtle lurking 64-bit issues that arise only after you start to overflow the indexing of 32-bit integers. char vs unsigned char.

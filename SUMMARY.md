@@ -1,5 +1,8 @@
 # Summary
 
+<!-- START doctoc -->
+<!-- END doctoc -->
+
 * [Preface](01-Preface.md)
 * [Use the Tools Available](02-Use_the_Tools_Available.md)
 * [Style](03-Style.md)

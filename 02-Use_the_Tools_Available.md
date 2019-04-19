@@ -1,5 +1,24 @@
 # Use The Tools Available
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [Source Control](#source-control)
+- [Build Tool](#build-tool)
+- [Package Manager](#package-manager)
+- [Continuous Integration](#continuous-integration)
+- [Compilers](#compilers)
+- [LLVM-based tools](#llvm-based-tools)
+- [Static Analyzers](#static-analyzers)
+- [Runtime Checkers](#runtime-checkers)
+- [Ignoring Warnings](#ignoring-warnings)
+- [Testing](#testing)
+- [Debugging](#debugging)
+- [Other Tools](#other-tools)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 An automated framework for executing these tools should be established very early in the development process. It should not take more than 2-3 commands to checkout the source code, build, and execute the tests. Once the tests are done executing, you should have an almost complete picture of the state and quality of the code.
 
 ## Source Control

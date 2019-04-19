@@ -1,5 +1,16 @@
 # Considering Maintainability
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [Avoid Compiler Macros](#avoid-compiler-macros)
+- [Consider Avoiding Boolean Parameters](#consider-avoiding-boolean-parameters)
+- [Avoid Raw Loops](#avoid-raw-loops)
+- [Never Use `assert` With Side Effects](#never-use-assert-with-side-effects)
+- [Properly Utilize 'override' and 'final'](#properly-utilize-override-and-final)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Avoid Compiler Macros
 

@@ -1,5 +1,14 @@
 # Further Reading
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [C++](#c)
+- [CMake](#cmake)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 *Note: This book has now inspired a video series from O'Reilly, [Learning C++ Best Practices](http://shop.oreilly.com/product/0636920049814.do)*
 
 ## C++

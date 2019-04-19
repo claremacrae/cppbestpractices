@@ -1,5 +1,36 @@
 # Style
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [Establishing A Style Guideline](#establishing-a-style-guideline)
+- [Common C++ Naming Conventions](#common-c-naming-conventions)
+- [Distinguish Private Object Data](#distinguish-private-object-data)
+- [Distinguish Function Parameters](#distinguish-function-parameters)
+- [Don't Name Anything Starting With `_`](#dont-name-anything-starting-with-_)
+- [Well-Formed Example](#well-formed-example)
+- [Enable Out-of-Source-Directory Builds](#enable-out-of-source-directory-builds)
+- [Use `nullptr`](#use-nullptr)
+- [Comments](#comments)
+- [Never Use `using namespace` in a Header File](#never-use-using-namespace-in-a-header-file)
+- [Include Guards](#include-guards)
+- [{} Are Required for Blocks.](#-are-required-for-blocks)
+- [Keep Lines a Reasonable Length](#keep-lines-a-reasonable-length)
+- [Use "" for Including Local Files](#use--for-including-local-files)
+- [Initialize Member Variables](#initialize-member-variables)
+- [Always Use Namespaces](#always-use-namespaces)
+- [Use the Correct Integer Type for Standard Library Features](#use-the-correct-integer-type-for-standard-library-features)
+- [Use .hpp and .cpp for Your File Extensions](#use-hpp-and-cpp-for-your-file-extensions)
+- [Never Mix Tabs and Spaces](#never-mix-tabs-and-spaces)
+- [Never Put Code with Side Effects Inside an assert()](#never-put-code-with-side-effects-inside-an-assert)
+- [Don't Be Afraid of Templates](#dont-be-afraid-of-templates)
+- [Use Operator Overloads Judiciously](#use-operator-overloads-judiciously)
+- [Avoid Implicit Conversions](#avoid-implicit-conversions)
+- [Consider the Rule of Zero](#consider-the-rule-of-zero)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Consistency is the most important aspect of style. The second most important aspect is following a style that the average C++ programmer is used to reading.
 
 C++ allows for arbitrary-length identifier names, so there's no reason to be terse when naming things. Use descriptive names, and be consistent in the style.

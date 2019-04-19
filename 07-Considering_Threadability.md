@@ -1,5 +1,15 @@
 # Considering Threadability
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [Avoid Global Data](#avoid-global-data)
+- [Avoid Heap Operations](#avoid-heap-operations)
+- [Mutex and mutable go together (M&M rule, C++11)](#mutex-and-mutable-go-together-mm-rule-c11)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Avoid Global Data
 
 Global data leads to unintended side effects between functions and can make code difficult or impossible to parallelize. Even if the code is not intended today for parallelization, there is no reason to make it impossible for the future.

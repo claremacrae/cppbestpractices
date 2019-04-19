@@ -1,5 +1,18 @@
 # Considering Safety
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [Const as Much as Possible](#const-as-much-as-possible)
+- [Avoid Raw Memory Access](#avoid-raw-memory-access)
+- [Use `std::array` or `std::vector` Instead of C-style Arrays](#use-stdarray-or-stdvector-instead-of-c-style-arrays)
+- [Use Exceptions](#use-exceptions)
+- [Use C++-style cast instead of C-style cast](#use-c-style-cast-instead-of-c-style-cast)
+- [Do not define a variadic function](#do-not-define-a-variadic-function)
+- [Additional Resources](#additional-resources)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Const as Much as Possible
 `const` tells the compiler that a variable or method is immutable. This helps the compiler optimize the code and helps the developer know if a function has a side effect. Also, using `const &` prevents the compiler from copying data unnecessarily. The  [comments on `const` from John Carmack](http://kotaku.com/454293019) are also a good read.
